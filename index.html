@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang='es'>
+
+<head>
+   <meta charset='UTF-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+   <title>Leyendas de la Noche</title>
+   <meta name='theme-color' content='#00000'>
+   <!-- font  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap" rel="stylesheet">
+   <!-- icons  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- style  -->
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <nav class="nav">
+      <div class="nav__close"><span>Cerrar</span><i class="fa-solid fa-xmark"></i></div>
+      <span class="nav__phrase">La música que te hará sentir vivo</span>
+      <ul class="navbar">
+         <li><a class="navbar__link active" href="#">Inicio</a></li>
+         <li><a class="navbar__link" href="#">A cerca</a></li>
+         <li><a class="navbar__link" href="#">Álbum</a></li>
+      </ul>
+      <div class="nav-credits">
+         <div class="nav-credits__item">
+            <h4>Desarrollador</h4>
+            <p>@Minimal Web</p>
+         </div>
+         <div class="nav-credits__item">
+            <h4>Tecnologías</h4>
+            <p>Html / Css / JS</p>
+         </div>
+         <div class="nav-credits__item">
+            <h4>Sociales</h4>
+            <ul class="nav-social">
+               <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+               <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <div class="page-content">
+      <header class="header">
+         <a class="header__logo" href="#">Logo</a>
+         <div class="header__burger">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+         </div>
+      </header>
+
+      <section class="hero">
+         <div class="container-animation">
+            <img class="bg-full" src="./img/Background-full.webp" alt="">
+            <img class="mountain-left" src="./img/mountain-left.webp" alt="">
+            <img class="mountain-right" src="./img/mountain-right.webp" alt="">
+            <img class="soldier" src="./img/soldier.webp" alt="">
+            <div class="title-album">
+               <h1>Leyendas De La Noche</h1>
+               <a class="button" href="https://www.youtube.com/playlist?list=OLAK5uy_m-dLEqH_Ktg2vYEspQG9iZRBKWUwyrj1k"
+                  target="_blank">Ver Álbum</a>
+            </div>
+         </div>
+      </section>
+
+      <section class="section-about">
+         <div class="section-about__heading">
+            <h2 class="h2">A cerca del Álbum</h2>
+            <h3 class="h3">Leyendas De La Noche</h3>
+         </div>
+         <div class="section-about__content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in vel aliquam eaque sequi saepe
+               voluptatibus? Autem, soluta eveniet quasi odit maiores reiciendis dolorum doloribus, a modi, labore
+               provident. Vel quam id officiis magni?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in vel aliquam eaque sequi saepe
+               voluptatibus? Autem, soluta eveniet quasi odit maiores reiciendis dolorum doloribus, a modi, labore
+               provident. Vel quam id officiis magni?</p>
+         </div>
+      </section>
+   </div>
+
+
+   <!-- gsap  -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+      integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+      integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!-- scroll  -->
+   <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+   <script src="main.js"></script>
+</body>
+
+</html>
